@@ -19,7 +19,6 @@ const git = ['/sprint', '/javascript', '/terminal'];
 const calculator = ['/addition', '/subtraction', '/division', '/multiplication'];
 const arrays = ['/splice', '/slice', '/indexOf', '/lastIndexOf'];
 const filesData = [git, calculator, arrays];
-console.log(filesData[1]);
 
 const changeDirectory = function (location) {
   if (location === '..') {
