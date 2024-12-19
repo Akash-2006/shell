@@ -2,19 +2,24 @@ let currentDirectory = ['~'];
 const promptMessage = 'singuluriakash@Singuluris-MacBook';
 const fileLocations = ['/git', '/calculator', '/arrays'];
 
-const git = function () {
-  return 'this is git file';
-};
+// const git = function () {
+//   return 'this is git file';
+// };
 
-const calculator = function () {
-  return 'this is caluculator';
-};
+// const calculator = function () {
+//   return 'this is caluculator';
+// };
 
-const arrays = function () {
-  return 'this is array';
-};
+// const arrays = function () {
+//   return 'this is array';
+// };
 
+
+const git = ['/sprint', '/javascript', '/terminal'];
+const calculator = ['/addition', '/subtraction', '/division', '/multiplication'];
+const arrays = ['/splice', '/slice', '/indexOf', '/lastIndexOf'];
 const filesData = [git, calculator, arrays];
+console.log(filesData[1]);
 
 const changeDirectory = function (location) {
   if (location === '..') {
